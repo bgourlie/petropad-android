@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.wbg.petropad" android:versionCode="6" android:versionName="petropad-beta">
+    <uses-sdk android:minSdkVersion="4"/>
+    <application android:icon="@drawable/icon" android:label="Petropad">
+        <activity android:name=".Petropad">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".PetropadNewEntry"/>
+        <activity android:name=".PetropadAddVehicle"/>
+        <activity android:name=".PetropadViewEntries"/>
+    </application>
+</manifest>

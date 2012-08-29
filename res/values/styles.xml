@@ -1,0 +1,9 @@
+<resources>
+    <style name="PlusButton">
+        32
+        <item name="android:background">@drawable/btn_circle</item>
+        33
+        <item name="android:src">@drawable/ic_btn_round_plus</item>
+        34
+    </style>
+</resources>

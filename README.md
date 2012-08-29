@@ -1,0 +1,3 @@
+## Petropad
+
+This is an Android application I wrote to track fuel efficiency.  Be cautioned -- the algorithm for determining fuel efficiency is flawed, although I can't remember specifically what was wrong with it.  I also do some wierd micro optimization where I avoid floating point math, attempting to adhere too strictly to the Android design guide (circa 2010).  Feel free to learn from it and make it your own!

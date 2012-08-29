@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/LblEntryDate"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_vertical|left"
+                  android:textSize="18sp"
+                  android:text="@string/label_entry_date"/>
+
+        <Button android:id="@+id/BtnChangeDate"
+                android:text="@string/label_change_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView android:id="@+id/LblOdeometerReading"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="18sp"
+              android:text="@string/label_odometer_reading"/>
+
+    <EditText android:id="@+id/TxtOdometerReading"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:inputType="number|phone"
+              android:imeOptions="actionNext"
+            />
+
+    <TextView android:id="@+id/LblFillAmount"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="18sp"/>
+
+    <EditText android:id="@+id/TxtFillAmount"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:inputType="numberDecimal|phone"
+              android:imeOptions="actionNext"/>
+
+    <TextView android:id="@+id/LblPricePerUnit"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="18sp"/>
+
+    <EditText android:id="@+id/TxtPricePerUnit"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:inputType="numberDecimal|phone"
+              android:imeOptions="actionDone"/>
+
+    <Button android:id="@+id/EntrySubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_save_entry"/>
+
+    <LinearLayout android:id="@+id/PanelAdditionalData"
+               android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" />
+</LinearLayout>

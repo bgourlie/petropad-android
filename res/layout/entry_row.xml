@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView android:id="@+id/lblEntryRowEntryDate"
+              android:gravity="left"
+              android:textSize="16sp"
+              android:textStyle="bold"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/lblEntryRowOdometerReading"
+              android:layout_below="@id/lblEntryRowEntryDate"
+              android:textSize="16sp"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/lblEntryRowFillAmount"
+              android:layout_below="@id/lblEntryRowOdometerReading"
+              android:textSize="16sp"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/lblEntryRowPricePerUnit"
+              android:layout_below="@id/lblEntryRowFillAmount"
+              android:textSize="16sp"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"/>
+</RelativeLayout>

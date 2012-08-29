@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Petropad</string>
+    <string name="vehicle_prompt">Select a Vehicle</string>
+    <string name="button_label_add_entry">Add entry for %1$s</string>
+    <string name="menu_view_entries">View Entries</string>
+    <string name="menu_edit_entry">Edit Entry</string>
+    <string name="menu_manage_vehicles">Manage Vehicles</string>
+    <string name="menu_add_entry">Add Entry</string>
+    <string name="menu_delete_entry">Delete Entry</string>
+    <string name="button_label_add_vehicle">Add Vehicle</string>
+    <string name="button_label_optional_info">Optional Information</string>
+    <string name="message_add_vehicle">You currently have no vehicles. Add one using the menu.</string>
+    <string name="message_viewing_statistics_for">Viewing statistics for vehicle:</string>
+    <string name="toast_no_vehicles">You must add a vehicle first.</string>
+    <string name="toast_invalid_odometer_entry">The odometer amount you entered was empty or not in the correct format.
+    </string>
+    <string name="toast_invalid_fill_amount_entry">The fill amount you entered was empty or not in the correct format.
+    </string>
+    <string name="toast_invalid_vehicle_name">The vehicle name you entered is not valid.</string>
+    <string name="toast_invalid_price_per_entry">The price per amount you entered was empty not in the correct format.
+    </string>
+    <string name="toast_odometer_reading_below_last_entry">The last odometer reading entered for %1$s was %2$d. You must
+        enter an odometer reading higher than that.
+    </string>
+    <string name="toast_duplicate_vehicle_name">A vehicle with that name already exists.</string>
+    <string name="toast_entry_date_cannot_be_in_future">Entry Date cannot be in the future.</string>
+    <string name="toast_unknown_error_occurred">An unknown error occured while attempting to save the data.</string>
+    <string name="message_not_enough_data_to_determine_mpg">Not enough data to generate statistics. Once a vehicle has
+        two or more entries, statistics will display.
+    </string>
+    <string name="stat_fuel_efficiency">Fuel Efficiency: %1$d %2$s</string>
+    <string name="stat_distance_driven">Distance Driven: %1$d %2$s</string>
+    <string name="stat_cost_per_distance_unit">Cost Per %1$s: %2$s%3$s</string>
+    <string name="stat_days_between_fillups">Days between Fill-Ups: %1$d</string>
+    <string name="header_statistics">From %1$s to %2$s</string>
+    <string name="list_item_label_timestamp">%1$s</string>
+    <string name="list_item_label_odometer_reading">Odometer Reading: %1$d</string>
+    <string name="list_item_label_fill_amount">Fill Amount: %1$s %2$s</string>
+    <string name="list_item_label_price_per_unit">Price: %1$s%2$s/%3$s</string>
+    <string name="label_add_new_entry">Adding entry for %1$s</string>
+    <string name="label_edit_entry">Editing entry for %1$s</string>
+    <string name="label_entry_date_today">Entry date is today.</string>
+    <string name="label_entry_date">Entry date is %1$tm/%1$te/%1$tY.</string>
+    <string name="label_odometer_reading">Odometer Reading</string>
+    <string name="label_price_per_unit">Price Per %1$s</string>
+    <string name="label_save_entry">Save Entry</string>
+    <string name="label_fill_amount">Fill Amount (%1$s)</string>
+    <string name="label_change_date">Change</string>
+    <string name="exception_odometer_reading_lower_than_previous_entry">There is an entry on %1$tm/%1$te/%1$tY with an
+        odometer reading of %2$d. You cannot create an entry on or after this date with a lower odometer reading.
+    </string>
+    <string name="exception_odometer_reading_higher_than_subsequent_entry">There is an entry on %1$tm/%1$te/%1$tY with
+        an odometer reading of %2$d. You cannot create an entry before this date with a higher odometer reading.
+    </string>
+    <string name="exception_unknown_error">An unknown error occured. Please contact app developer.</string>
+    <string name="title_viewing_entries_for">Viewing Entries For %1$s</string>
+    <string name="label_vehicle_name">Vehicle Name</string>
+    <string name="label_odometer_distance_units">Odometer Distance Units</string>
+</resources>
